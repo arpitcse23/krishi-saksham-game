@@ -5,75 +5,114 @@
 
 ---
 
-## 🌍 The Problem
+## 🌍 Problem Statement
 
-In rural India, millions of families struggle with financial planning.  
-Despite earning money through farming, lack of awareness leads to:
+In rural India, women manage a significant portion of household finances, yet lack access to simple, practical financial planning tools.
 
-- No emergency savings
-- Poor budgeting decisions
-- High vulnerability to unexpected events
+Challenges include:
+- No structured budgeting approach  
+- Lack of emergency preparedness  
+- Financial decisions taken without understanding long-term impact  
 
 ---
 
 ## 💡 Our Solution
 
-**Krishi Saksham** is an interactive simulation game that puts users in the shoes of a rural farmer.
+**Krishi Saksham** is a lightweight, interactive simulation game that teaches financial decision-making through real-life rural scenarios.
 
-Players must allocate a limited seasonal income across 4 critical areas:
-
-- 🌱 Crop (farming investment)
-- 🏠 Family (daily needs)
-- 🛡 Safety (emergency funds)
-- ✨ Future (long-term growth)
+Users step into the role of **Meera**, a rural farmer, and must manage her seasonal income wisely.
 
 ---
 
-## 🎮 How It Works
+## 🎮 Gameplay Flow
 
-1. 📖 Start with a real-life story of Meera (a rural farmer)
-2. 💰 Allocate ₹60,000 across 4 categories
-3. ⚡ Face unexpected real-world events (e.g., medical emergency, crop loss)
-4. 📊 See the impact of your decisions
-5. 🧠 Get a financial score + actionable advice
+1. 📖 Story Introduction (Meet Meera)  
+2. 💰 Allocate ₹60,000 across 4 key areas:
+   - 🌱 Crop (Investment)
+   - 🏠 Family (Daily Needs)
+   - 🛡 Safety (Emergency Fund)
+   - ✨ Future (Savings & Growth)
+3. ⚡ Encounter random real-life events  
+4. 📊 View impact on farm health, family well-being, and savings  
+5. 🧠 Receive a financial score and actionable insights  
 
 ---
 
 ## 🔥 Key Features
 
-- 🎯 Decision-based gameplay
-- 🎲 Random real-life scenarios
-- 📈 Financial scoring system
-- 💡 Actionable financial tips
-- 📱 Mobile-friendly design
+- 🎯 Decision-based learning  
+- 🎲 Randomized real-world scenarios  
+- 📊 Instant feedback & scoring  
+- 📱 Mobile-friendly design  
+- ⚡ Lightweight & fast performance  
 
 ---
 
-## 🎯 Impact
+## 🌐 Offline Capability
 
-This game helps users:
-
-- Understand the importance of savings
-- Plan for emergencies
-- Make smarter financial decisions
-- Build long-term financial stability
+- Works as a **Progressive Web App (PWA)**  
+- Uses **Service Workers** for offline access  
+- No internet required after initial load  
 
 ---
 
 ## 🛠 Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- HTML  
+- CSS  
+- JavaScript  
+- PWA (Manifest + Service Worker)  
+
+---
+
+## 🖥 How to Run Locally
+
+1. Clone the repository  
+2. Open the project folder  
+3. Open `index.html` in any browser  
+
+No installation required.
+
+---
+
+## 📁 Project Structure
+
+- `index.html` → Main application UI  
+- `manifest.json` → PWA configuration  
+- `sw.js` → Service Worker for offline support  
+
+---
+
+## 🔐 Authentication
+
+No login or credentials are required to use the application.
+
+---
+
+## 📈 Impact
+
+Krishi Saksham helps users:
+- Understand budgeting and savings  
+- Prepare for emergencies  
+- See real consequences of financial decisions  
+- Build long-term financial awareness  
 
 ---
 
 ## 🚀 Future Scope
 
-- Multi-language support (Hindi + regional languages)
-- Voice-based storytelling for low-literacy users
-- AI-driven personalized financial advice
-- Integration with government schemes
+- Multi-language support (Hindi + regional languages)  
+- Voice-based storytelling for low-literacy users  
+- AI-driven personalized financial guidance  
+- Integration with financial literacy programs  
+
+---
+
+## 🤝 Scalability
+
+- Designed for **low-end smartphones**  
+- Works in **low-bandwidth environments**  
+- Easily shareable via **WhatsApp / QR codes**  
 
 ---
 
@@ -85,4 +124,4 @@ This game helps users:
 
 ## 🧠 Vision
 
-> "Empowering rural India with financial awareness through interactive storytelling."
+> Empowering rural communities with financial literacy through interactive storytelling and simulation.
